@@ -1,17 +1,19 @@
-## Task App with Flutter and Express
+## Task App with Flutter, Express.js, and MySQL
 
-This project is a task management application built using Flutter for the frontend and Express.js for the backend. The app allows users to manage their tasks efficiently, including creating, updating, deleting, and marking tasks as completed.
+This project is a task management application built using Flutter for the frontend, Express.js for the backend, and MySQL for the database. The app allows users to manage their tasks efficiently, including creating, updating, deleting, and marking tasks as completed.
 
 ### Features
 
-- User authentication: Users can sign up and log in securely to access their tasks.
-- Task management: Users can create, update, delete, and mark tasks as completed.
-- Real-time updates: Changes made by one user are instantly reflected for all users viewing the same task.
+- **User Authentication**: Users can sign up and log in securely to access their tasks.
+- **Task Management**: Users can create, update, delete, and mark tasks as completed.
+- **Real-time Updates**: Changes made by one user are instantly reflected for all users viewing the same task.
+- **Data Persistence**: Tasks are stored in a MySQL database, ensuring data integrity and reliability.
 
 ### Technologies Used
 
-- **Flutter**: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
-- **Express.js**: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+- ![Flutter](https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png): A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+- ![Express.js](https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png): A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+- ![MySQL](https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1920px-MySQL.svg.png): An open-source relational database management system.
 
 ### Installation
 
@@ -41,7 +43,7 @@ This project is a task management application built using Flutter for the fronte
    flutter run
    ```
 
-#### Backend (Express.js)
+#### Backend (Express.js with MySQL)
 
 1. Clone the repository (if not already done):
 
@@ -61,7 +63,11 @@ This project is a task management application built using Flutter for the fronte
    npm install
    ```
 
-4. Start the server:
+4. Set up MySQL database:
+   - Create a MySQL database and table for storing tasks. You can use the provided SQL script (`tasks.sql`) to create the necessary table.
+   - Update the database connection details in `config.js` file to match your MySQL database configuration.
+
+5. Start the server:
 
    ```
    npm start
@@ -83,4 +89,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### Acknowledgements
 
-Special thanks to the developers and contributors of Flutter and Express.js for providing robust frameworks that simplify the development of modern web and mobile applications.
+Special thanks to the developers and contributors of Flutter, Express.js, and MySQL for providing robust frameworks and tools that simplify the development of modern web and mobile applications with database integration.

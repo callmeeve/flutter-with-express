@@ -11,9 +11,11 @@ This project is a task management application built using Flutter for the fronte
 
 ### Technologies Used
 
-- ![Flutter](https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png): A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
-- ![Express.js](https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png): A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-- ![MySQL](https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1920px-MySQL.svg.png): An open-source relational database management system.
+![Flutter](https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png) ![Express.js](https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png) ![MySQL](https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1920px-MySQL.svg.png)
+
+- **Flutter**: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+- **Express.js**: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+- **MySQL**: An open-source relational database management system.
 
 ### Installation
 
